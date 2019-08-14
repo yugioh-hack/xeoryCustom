@@ -2,7 +2,7 @@
 <html lang="ja" prefix="og: http://ogp.me/ns#">
 <head>
 	<meta charset="UTF-8">
-	<title><?php bzb_title(); ?></title>
+	<?php // <title> bzb_title(); </title> ?>
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
 
 <?php 
