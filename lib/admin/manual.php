@@ -33,7 +33,7 @@ class bzb_Admin_start{
   public function admin_page_display(){
     ?>
     
-    <div class="wrap">
+    <div class="container">
       <h2>使い方マニュアル</h2>
       <div class="postbox">
         <h3 class="hndle">はじめに</h3>

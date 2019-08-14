@@ -1,6 +1,6 @@
 <footer id="footer">
   <div class="footer-01">
-    <div class="wrap">
+    <div class="container">
 
       <div id="footer-brand-area" class="row">
         <div class="footer-logo gr6">
@@ -84,7 +84,7 @@
     </div><!-- /wrap -->
   </div><!-- /footer-01 -->
   <div class="footer-02">
-    <div class="wrap">
+    <div class="container">
       <p class="footer-copy">
         © Copyright <?php echo date('Y'); ?> <?php echo get_bloginfo('name'); ?>. All rights reserved.
       </p>

@@ -104,7 +104,7 @@ wp_head();
 
 
   <nav id="gnav-sp">
-    <div class="wrap">
+    <div class="container">
     
     <div class="grid-wrap">
             <div id="header-cont-about" class="grid-3">
@@ -146,7 +146,7 @@ wp_head();
 <?php if( !(is_home() || is_front_page() || is_singular('lp') ) ){ ?>
   
   <div class="breadcrumb-area">
-    <div class="wrap">
+    <div class="container">
       <?php bzb_breadcrumb(); ?>
     </div>
   </div>

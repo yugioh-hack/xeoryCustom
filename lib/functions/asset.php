@@ -19,12 +19,14 @@ if( !is_admin() ){
     wp_register_style( 'base-css', get_template_directory_uri().'/base.css' );
     wp_register_style( 'main-css', get_stylesheet_directory_uri().'/style.css',array('base-css') );
     wp_register_style( 'font-awesome', get_template_directory_uri().'/lib/css/font-awesome.min.css');
+    wp_register_style( 'mdcnt-css', get_template_directory_uri().'/mdcnt.css');
   }
   function bzb_add_style(){
     bzb_register_style();
     wp_enqueue_style('font-awesome');
     wp_enqueue_style('base-css');
     wp_enqueue_style('main-css');
+    wp_enqueue_style('mdcnt-css');
   }
 }
 

@@ -66,7 +66,7 @@ jQuery('document').ready(function(){
 </script>
 
 
-  <div class="wrap">
+  <div class="container">
     <h2>テーマ情報設定</h2>
 
     <form method="post" action="options.php" enctype="multipart/form-data" encoding="multipart/form-data">

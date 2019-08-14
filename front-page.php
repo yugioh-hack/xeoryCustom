@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <div id="main_visual">
-  <div class="wrap">
+  <div class="container">
     <h2><?php echo nl2br(get_option('top_catchcopy'));?></h2>
     <p><?php echo nl2br(get_option('top_description'));?></p>
   </div><!-- .wrap -->
@@ -15,7 +15,7 @@
 <div id="popular_post_content" class="front-loop">
 
 <h2><i class="fa fa-flag"></i> 人気のある記事</h2>
-<div class="wrap">
+<div class="container">
   <div class="front-loop-cont">
 <?php
       $i = 1;
@@ -81,7 +81,7 @@
 <div id="recent_post_content" class="front-loop">
 
 <h2><i class="fa fa-clock-o"></i> 最近の投稿</h2>
-<div class="wrap">
+<div class="container">
   <div class="front-loop-cont">
 <?php
       $i = 1;
@@ -171,7 +171,7 @@
     extract(make_info_4top($value));
 ?>
   <section id="front-contents-1" class="c_box c_box_<?php echo $left_right;?>">
-    <div class="wrap">
+    <div class="container">
       <div class="c_box_inner">
         <div class="c_title">
           <p class="c_number"><?php echo $i;?></p>
@@ -225,7 +225,7 @@
   </header>
 
 
-  <div class="wrap">
+  <div class="container">
     <div class="front-service-inner">
 
 <?php
@@ -296,7 +296,7 @@
       <?php echo $company_map;?>
     </div>
 
-    <div class="wrap">
+    <div class="container">
       <div class="c_box_inner">
         <?php 
         if(isset($companies) && $companies !== ''){
@@ -337,7 +337,7 @@
   </header>
 
   <section id="front-contents-1" class="c_box c_box_left">
-    <div class="wrap">
+    <div class="container">
       <div class="c_box_inner">
         <?php echo $content = apply_filters( 'the_content', $bzb_contact_textarea, 10 ); ?>
       </div>

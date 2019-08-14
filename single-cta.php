@@ -3,7 +3,7 @@
 
 <div id="content">
 
-<div class="wrap">
+<div class="container">
   <div id="main" <?php bzb_layout_main(); ?>>
 
     <?php bzb_breadcrumb(); ?>

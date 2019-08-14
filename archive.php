@@ -2,7 +2,7 @@
 
 <div id="content">
 
-<div class="wrap">
+<div class="container">
 
   <div id="main" <?php bzb_layout_main(); ?> role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
     <div class="main-inner">

@@ -3,7 +3,7 @@
 
 <div id="content">
 
-<div class="wrap">
+<div class="container">
 
   
 
