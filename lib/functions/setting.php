@@ -3,6 +3,29 @@
    WordPress標準の機能はこちらに記入しています。
 * ---------------------------------------- */
 
+/* Setup
+* ----------------------------------------*/
+if ( ! function_exists('mdcnt_setup') ) {
+  function mdcnt_setup() {
+    add_theme_support('title-tag');
+
+    /**
+		 * Add support for core custom logo.
+		 *
+		 * @link https://codex.wordpress.org/Theme_Logo
+		 */
+		add_theme_support(
+			'custom-logo',
+			array(
+				'height'      => 190,
+				'width'       => 190,
+				'flex-width'  => false,
+				'flex-height' => false,
+			)
+    );
+  }
+}
+add_action('after_setup_theme', 'mdcnt_setup');
 
 /* ナビ
 * ---------------------------------------- */

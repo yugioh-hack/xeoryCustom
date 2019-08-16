@@ -1,15 +1,4 @@
 <?php
-/* Setup
-* ----------------------------------------*/
-if ( ! function_exists('mdcnt_setup') ) {
-  function mdcnt_setup() {
-    add_theme_support('title-tag');
-  }
-}
-add_action('after_setup_theme', 'mdcnt_setup');
-
-
-
 /* StyleSheet
 * ---------------------------------------- */
 
